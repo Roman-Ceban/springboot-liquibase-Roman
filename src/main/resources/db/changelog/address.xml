@@ -15,9 +15,20 @@
             <column name="street" type="varchar(100)">
                 <constraints nullable="false"/>
             </column>
+
+            <column name="city" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="suite" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="zipcode" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
             <column name="geo_id" type="int">
                 <constraints nullable="true" foreignKeyName="factory_key" />
             </column>
+
         </createTable>
     </changeSet>
 </databaseChangeLog>

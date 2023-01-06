@@ -1,2 +1,24 @@
 # Project exclude paths
 /target/
+.idea/compiler.xml
+.idea/dataSources.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/sqldialects.xml
+.idea/vcs.xml
+pom.xml
+src/main/java/com/codingworld/liquibasedemo/address/Address.java
+src/main/java/com/codingworld/liquibasedemo/company/Company.java
+src/main/java/com/codingworld/liquibasedemo/Dao/EmployeesDao.java
+src/main/java/com/codingworld/liquibasedemo/geo/Geo.java
+src/main/java/com/codingworld/liquibasedemo/LiquibaseDemoApplication.java
+src/main/java/com/codingworld/liquibasedemo/repository/entity/Employees.java
+src/main/java/com/codingworld/liquibasedemo/repository/UserRepository.java
+src/main/java/com/codingworld/liquibasedemo/user/Users.java
+src/main/java/com/codingworld/liquibasedemo/userController/UserController.java
+src/main/resources/db/changelog/address.xml
+src/main/resources/db/changelog/company.xml
+src/main/resources/db/changelog/data/users.csv
+src/main/resources/db/changelog/geo.xml
+src/main/resources/db/changelog/users.xml
+*.xml
+*.xml

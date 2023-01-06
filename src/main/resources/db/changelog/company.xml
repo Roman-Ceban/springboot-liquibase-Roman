@@ -15,6 +15,12 @@
             <column name="name" type="varchar(100)">
                 <constraints nullable="false"/>
             </column>
+            <column name="bs" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="catch_phrase" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
            </createTable>
     </changeSet>
 </databaseChangeLog>

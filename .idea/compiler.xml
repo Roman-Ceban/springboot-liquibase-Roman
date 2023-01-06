@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-liquibase-postgres" />
         <module name="liquibase-demo" />
         <module name="springboot-liquibase-postgres-main-master" />
       </profile>
@@ -14,6 +15,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="liquibase-demo" options="-parameters" />
+      <module name="springboot-liquibase-postgres" options="-parameters" />
       <module name="springboot-liquibase-postgres-main-master" options="-parameters" />
     </option>
   </component>

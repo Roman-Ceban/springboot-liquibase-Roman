@@ -12,10 +12,10 @@
             <column name="id" type="int" autoIncrement="true">
                 <constraints nullable="true" primaryKey="true"/>
             </column>
-            <column name="lat" type="float">
+            <column name="lat" type="double precision">
                 <constraints nullable="false"/>
             </column>
-            <column name="lng" type="float">
+            <column name="lng" type="double precision">
                 <constraints nullable="false"/>
             </column>
         </createTable>
